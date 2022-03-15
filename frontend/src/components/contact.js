@@ -6,7 +6,7 @@ function Contact() {
     const send = (e) => {
         e.preventDefault();
         sendForm(
-            'service_kfcgqmd', 'template_wmbmrco', e.target, 'user_jWuwhLVxUdpxzjsJ9O8TC'
+            'id', 'template', e.target, 'user' //secret data
             ).then(() => {
                 alert('Your message has been sent!');
             }).catch(err => {
