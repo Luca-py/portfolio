@@ -7,7 +7,6 @@ function Skills(props) {
     const animation = useAnimation();
     useEffect(() => {
         if(inView){
-            console.log('inView');
             animation.start({
                 opacity: 1,
                 y: 0,
@@ -19,7 +18,6 @@ function Skills(props) {
             });
         }
         if (!inView) {
-            console.log('not inView');
             animation.start({
                 opacity: 0,
                 y: 50,
@@ -28,7 +26,7 @@ function Skills(props) {
                 },
             });
         }
-    }, [inView]);
+    }, [animation, inView]);
 
     return (
         <motion.div {...props} className={`max-w-xl shadow-md rounded-2xl text-center p-5 text-white ${props.color}`}

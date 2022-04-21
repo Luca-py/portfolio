@@ -1,11 +1,12 @@
 import React from 'react'
 import{ sendForm } from '@emailjs/browser';
 import { motion } from 'framer-motion'
-import { service, template, userId } from './keys';
+import { service, template, userId } from './keys.js';
 
 function Contact() {
     const send = (e) => {
         e.preventDefault();
+        console.log(service, template, userId)
         sendForm(
             service, template, e.target, userId
             ).then(() => {
