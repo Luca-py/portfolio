@@ -6,7 +6,6 @@ import { service, template, userId } from './keys.js';
 function Contact() {
     const send = (e) => {
         e.preventDefault();
-        console.log(service, template, userId)
         sendForm(
             service, template, e.target, userId
             ).then(() => {
