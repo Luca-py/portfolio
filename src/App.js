@@ -8,7 +8,7 @@ import team from './pics/teamwork.png';
 import Languages from './components/languages';
 import Project from './components/project';
 import React from 'react';
-import Contact from './components/contact';
+/* import Contact from './components/contact'; */
 
 function App() {
 
@@ -39,7 +39,7 @@ function App() {
           <Project name={"Portfolio Website"} pic={"https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80"} link={"https://github.com/Luca-py/portfolio"} description={"This is the source code for this Website. I used React and some libraries to build it."}/>
         </div>
         <div className='min-w-full justify-center flex pt-10' id='contact'>
-          <Contact />
+          {/* <Contact /> */}
         </div>
       </header>
     </div>
