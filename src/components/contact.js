@@ -4,9 +4,9 @@ import { motion } from 'framer-motion'
 import axios from 'axios';
 
 function Contact() {
-    const template = 'template_wmbmrco';	// Your template ID from EmailJS
-    const service = 'service_kfcgqmd';	// Your service ID from EmailJS
-    const userId = axios.get("http://localhost:8000/").then(res => res.data);	// Your user ID from EmailJS
+    const template = "template";	// Your template ID from EmailJS
+    const service = "service";	// Your service ID from EmailJS
+    const userId = "id"	// Your user ID from EmailJS
 
     const send = (e) => {
         e.preventDefault();
