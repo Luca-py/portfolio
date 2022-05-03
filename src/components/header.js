@@ -10,7 +10,6 @@ function Header() {
             <Link to='skills' smooth={true} duration={1000}>skills</Link>
             <Link to='languages' smooth={true} duration={1000}>languages</Link>
             <Link to='projects' smooth={true} duration={1000}>projects</Link>
-            <Link to='contact' smooth={true} duration={1000}>contact</Link>
         </div>
     )
 }
