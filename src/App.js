@@ -35,7 +35,7 @@ function App() {
         <div className='min-w-full justify-center flex' id='languages'>
           <Languages />
         </div>
-        <div className='w-full pl-10 pr-10 pt-10 flex flex-wrap-reverse gap-10' id='projects'>
+        <div className='w-full pl-10 pr-10 pt-10 flex flex-wrap-reverse gap-10 min-w-full justify-center' id='projects'>
           <Project name={"Portfolio Website"} pic={"https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80"} link={"https://github.com/Luca-py/portfolio"} description={"This is the source code for this Website. I used React and some libraries to build it."}/>
           <Project name={"Random Quotes"} pic={"https://images.unsplash.com/photo-1567219934540-9f75f7b87552?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"} link={"https://github.com/Luca-py/randomquotes"} description={"A Website which displays random quotes. These quotes can also be shared via Twitter and the background color changes randomly."}/>
           <Project name={"Headwind Tutorial"} pic={"https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80"} link={"https://github.com/Luca-py/headwind"} description={"Followed the Tutorial by Fireship for the Headwind extension for react."}/>
